@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /*grid-template-rows: 50px 100px;
+    como las letras no entran en vez de 50px pongo auto, por más que agregue mas texto
+    se ajusta*/
+    grid-template-rows: auto 100px;
+    /*aplica el espacio tanto para filas, como para columna
+    gap: 1em;*/
+    /*column-gap: 1em; espacio en las columnas*/
+    row-gap: 1em; /*espacio en las filas, recordar para que funcione el em debe ir pegado al número*/ 
+}
+
+
+.container div {
+    background-color: papayawhip;
+    padding: 1em;
+    
+}
+.container div:hover {
+    border: 1px solid grey;
+}
